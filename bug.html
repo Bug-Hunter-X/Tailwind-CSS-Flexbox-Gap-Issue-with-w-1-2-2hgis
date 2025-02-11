@@ -1,0 +1,7 @@
+```html
+<div class="flex">
+  <div class="w-1/2 bg-gray-200"></div>
+  <div class="w-1/2 bg-gray-200"></div>
+</div>
+```
+This code snippet is expected to create two equally sized divs that take up the full width of their parent container. However, due to the way Tailwind's `w-1/2` utility works with flexbox, there might be a small gap between the two divs caused by rounding errors or unexpected spacing from the parent container. This can be unexpected if the developer anticipates the divs perfectly dividing the available space.
