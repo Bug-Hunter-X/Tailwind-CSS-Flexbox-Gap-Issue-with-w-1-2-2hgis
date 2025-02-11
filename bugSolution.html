@@ -1,0 +1,7 @@
+```html
+<div class="flex w-full">
+  <div class="w-1/2 bg-gray-200"></div>
+  <div class="w-1/2 bg-gray-200"></div>
+</div>
+```
+Adding `w-full` to the parent flex container explicitly sets its width to 100%, thus resolving the spacing issue by ensuring there is no unexpected space between the two elements.  Alternatively, you can use the `space-x-0` utility class on the parent to remove any default spacing between the flex items.  Choose the solution that best suits your overall layout needs.
